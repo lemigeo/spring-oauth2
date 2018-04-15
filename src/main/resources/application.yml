@@ -1,0 +1,9 @@
+server:
+  port: 8082
+  
+logging:
+  config: classpath:logback-spring.xml 
+  
+spring:
+  application:
+    name: oauth2
